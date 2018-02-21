@@ -1,1 +1,17 @@
-Hello World
+  Si bien una espada se puede usar para golpear cabezas, su filo fue forjado para
+rebanarlas, de esta misma manera React fue concebido para poder construir un
+<link>DSL</link> que nos permitira describir una interfaz de usuario de manera intuitiva
+y robusta.
+  El primer paso para esto es generar entonces los bloques que representaran nuestros
+componentes más básicos, que luego, como legos, se iran componiendo para formar las interfaces
+complejas que nuestra aplicación requiera.
+  Aquí comienza nuestra primera aventura de patrones:
+
+Dada una imagen que representa nuestra UI ¿Qué elementos representaran nuestros bloques básicos?
+<ejemploimagen>
+Existe un patron de diseño llamado "atomic design", nosotros utilizaremos una idea parecida (no digo similar
+porque no he profundizado en los conceptos de este patron de diseño como para hablar de ellos).
+El texto es la unidad basica de nuestra interfaces, así que empezaremos a crear los bloques más básicos a partir
+de ellos. Es importante abusar de la componentización, esto mejora mucho la modularidad
+del codigo, hace más facil reutilizar componentes cuando se requiera y mejora la legibilidad
+creando elementos más descriptivos.
